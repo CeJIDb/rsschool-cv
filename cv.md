@@ -23,3 +23,6 @@ function domainName(url) {
   return match ? match[1] : '';
 }
 '''
+
+##Experience
+I have completed one academic project on website layout design: [Hexlet Cognitive Distortions](https://cejidb.github.io/layout-designer-project-58/src/)
