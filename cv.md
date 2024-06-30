@@ -35,3 +35,8 @@ I have completed one academic project on website layout design: [Hexlet Cognitiv
 * Courses:
   * [Hexlet](https://ru.hexlet.io/u/cejidb)
   * [Stepik](https://stepik.org/users/496193003/profile)
+
+##Languages
+  * Russian - native speaker
+  * English - B2
+  * German - A1
