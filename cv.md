@@ -1,7 +1,8 @@
 # Artem Subbotin
+![Фото](/assets/images/photo.jpg)
 
 ## Contacts
-* Location: Saint Petersbur, Russia
+* Location: Saint Petersburg, Russia
 * Phone: +79110345597
 * Email: cejidb@mail.ru
 * GitHub:  [cejidb](https://github.com/CeJIDb)
