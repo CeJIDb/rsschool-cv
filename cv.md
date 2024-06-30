@@ -28,3 +28,10 @@ function domainName(url) {
 
 ##Experience
 I have completed one academic project on website layout design: [Hexlet Cognitive Distortions](https://cejidb.github.io/layout-designer-project-58/src/)
+
+
+##Education
+* University: Saint Petersburg Electrotechnical University "LETI", Master's degree in Control Systems Engineering
+* Courses:
+  * [Hexlet](https://ru.hexlet.io/u/cejidb)
+  * [Stepik](https://stepik.org/users/496193003/profile)
