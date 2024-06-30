@@ -15,6 +15,8 @@ I am a software engineer with experience since 2017, specializing in developing 
 * CSS/SASS
 * JavaScript (Basic)
 * Git
+* С/C++ (Qt 5.15)
+* Figma, Adobe Illustrator
 
 ##Code Example
 '''javascript
