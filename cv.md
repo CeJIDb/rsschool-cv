@@ -1,5 +1,4 @@
 # Artem Subbotin
-<img src="./assets/images/photo.jpg" width="265" height="320" alt="Фото">
 
 ## Contacts
 * Location: Saint Petersburg, Russia
