@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font: 18px/1.1 Inter, sans-serif;
+  font: 18px/1.3 Inter, sans-serif;
 }
 
 h1, h2, h4 {
@@ -131,6 +131,7 @@ h4 {
 }
 
 .right-side-container {
+  margin-top: 19px;
   width: 65%;
 }
 
@@ -163,15 +164,50 @@ h4 {
   font-weight: 700;
 }
 
+.section[id="code-example"] > .right-side-container {
+  margin-top: 37px;
+}
+
 .code-container {
-  margin-top: 20px;
   background-color: var(--secondary-bg-color);
 }
 
 .code-container > pre {
   margin-left: -40px;
   padding: 20px;
+
   color: var(--secondary-text-color);
+}
+
+.education-container {
+  margin-top: 37px;
+}
+
+.education-unit {
+  padding: 25px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid var(--secondary-text-color)
+}
+
+.education-unit:last-of-type {
+  border-bottom: 1px solid var(--secondary-text-color)
+}
+
+.education-unit .right-side {
+  width: 50%;
+}
+
+.education-unit .right-side > p {
+  margin: 0;
+  padding: 0;
+}
+
+.courses .right-side {
+  display: flex;
+  flex-direction: column;
 }
 
 .mc {
@@ -185,7 +221,6 @@ h4 {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
 }
 
 .gc-1 {
@@ -206,6 +241,14 @@ h4 {
 
 .gr-3 {
   grid-row: 3;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-15 {
+  gap: 15px;
 }
 
 .br {
