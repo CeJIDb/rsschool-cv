@@ -76,7 +76,7 @@ h4 {
 }
 
 .navigation {
-  padding: 30px 0;
+  padding: 30px;
 }
 
 .navigation ul {
@@ -133,8 +133,9 @@ h4 {
 }
 
 .contacts-list-container,
-.skills-list {
-  width: 60%;
+.skills-list,
+.code-container {
+  width: 65%;
 }
 
 .contacts-list .icon::before {
@@ -170,6 +171,28 @@ h4 {
   font-weight: 700;
 }
 
+.section[id="code-example"] {
+  justify-content: space-between;
+}
+
+.code-container {
+  margin-top: 20px;
+  background-color: var(--secondary-bg-color);
+}
+
+.code-container > pre {
+  padding: 20px;
+  color: var(--secondary-text-color);
+}
+
+.mc {
+  color: var(--main-text-color);
+}
+
+.bold {
+  font-weight: 600;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -196,7 +219,6 @@ h4 {
   grid-row: 3;
 }
 
-
 .test-border {
   border: 1px solid red;
 }
@@ -211,6 +233,10 @@ h4 {
     padding: 0 20px;
   }
 
+  .navigation {
+    margin: 20px 0;
+  }
+
   .navigation > ul {
     flex-direction: column;
     gap: 20px;
@@ -221,7 +247,8 @@ h4 {
   }
 
   .section[id="contacts"],
-  .section[id="skills"] {
+  .section[id="skills"],
+  .section[id="code-example"] {
     flex-direction: column;
     gap: 20px;
   }
@@ -231,9 +258,19 @@ h4 {
   }
 
   .contacts-list-container,
-  .skills-list {
+  .skills-list,
+  .code-container {
     width: 100%;
   }
+
+  .code-container {
+    overflow-x: scroll;
+  }
+
+  .code-container > pre {
+    white-space: pre-wrap;
+    overflow-x: scroll;
+  } 
 }
 
 @media (max-width: 600px) {
@@ -253,6 +290,5 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-
 }
 
