@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation container">
+      <ul class="list-style-none links-style-none">
+        <li><a class="name" href="#summary">Artem Subbotin</a></li>
+        <li>
+          <ul class="list-style-none">
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </li>
+        <li><a class="phone-number" href="">+7 (911) 034-55-97</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section container" id="summary">
+      <div class="photo">
+        <img src="./assets/images/photo.png" alt="photo" width="580" height="660">
+      </div>
+      <div class="text">
+        <h1>Artem Subbotin</h1>
+        <p class="sc">I am a software engineer with experience since 2017, specializing in developing HMI for ship control systems. Known for my technical mindset and strong logical thinking, I thrive on delving deep into problems to find effective solutions. Outside of work, I am passionate about yoga, swimming, and indulging in old-school RPGs and DnD.</p>
+      </div>
+    </section>
+    <section class="section container" id="contacts">
+      <h2>Contacts</h2>
+      <div class="right-side-container">
+        <h4>Work with me</h4>
+        <ul class="contacts-list grid-2 gap-15 list-style-none links-style-none">
+          <li class="gc-1 gr-1">+7 (911) 034-55-97</li>
+          <li class="gc-1 gr-2">cejidb@mail.ru</li>
+          <li class="icon location gc-1 gr-3">Saint Petersburg, Russia</li> 
+          <li class="gc-2 gr-1"><a class="icon github" href="https://github.com/CeJIDb" target="_blank">cejidb</a></li>
+          <li class="gc-2 gr-2"><a class="icon discord" href="https://discordapp.com/users/186077151194251264/" target="_blank">Artem Subbotin (@CeJIDb)</a></li>
+          <li class="gc-2 gr-3"><a class="icon codewars" href="https://www.codewars.com/users/CeJIDb" target="_blank">CeJIDb</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section container" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list right-side-container grid-2 gap-20 list-style-none">
+        <li class="gc-1 gr-1">HTML</li>
+        <li class="gc-1 gr-2">CSS/SASS</li>
+        <li class="gc-1 gr-3">JavaScript (Basic)</li>
+        <li class="gc-2 gr-1">Git</li>
+        <li class="gc-2 gr-2">С/C++ (Qt 5.15)</li>
+        <li class="gc-2 gr-3">Figma, Adobe Illustrator</li>
+      </ul>
+    </section>
+    <section class="section container" id="code-example">
+      <h2>Code Example</h2>
+      <div class="code-container right-side-container">
+        <pre>
+        <span class="mc bold">function</span> domainName(url) {
+          <span class="mc bold">const</span> match = url.match(/(?:https?:\/\/)?(?:www\.)?([^\/\.]+)/);
+          <span class="mc bold">return</span> match ? match[1] : '';
+        }</pre>
+      </div>
+    </section>
+    <section class="section container" id="experience">
+      <h2>Experience</h2>
+      <p class="right-side-container sc">I have completed one academic project on website layout design: <span class="br"><a class="links-style-none mc bold" href="https://cejidb.github.io/layout-designer-project-58/src/" target="_blank">Hexlet Cognitive Distortions</a></span></p>
+    </section>
+    <section class="section container" id="education">
+      <h2>Education</h2>
+      <div class="education-container right-side-container">
+        <div class="education-item university">
+          <h4>University</h4>
+          <div class="right-side sc">
+            <p>Saint Petersburg Electrotechnical</p>
+            <p>University “LETI”, Master’s degree</p>
+            <p>in Control Systems Engineering</p>
+          </div>
+        </div>
+        <div class="education-item courses">
+          <h4>Courses</h4>
+          <ul class="right-side gap-15 list-style-none links-style-none sc">
+            <li><a href="https://ru.hexlet.io/u/cejidb" target="_blank">Hexlet</a></li>
+            <li><a href="https://stepik.org/users/496193003/profile" target="_blank">Stepik</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section container" id="languages">
+      <h2>Languages</h2>
+      <div class="languages-container right-side-container">
+        <div class="language-item">
+          <p class="bold">Russian</p>
+          <p><span class="bold">Lv:</span> <span class="sc">Native speaker</span></p>
+        </div>
+        <div class="language-item">
+          <p class="bold">English</p>
+          <p><span class="bold">Lv:</span> <span class="sc">B2</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container container">
+      <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="./assets/images/rsschool-logo.svg" width="97" height="36" alt="RS School logo"></a>
+      <p class="sc"><a class="links-style-none" href="https://github.com/CeJIDb" target="_blank">cejidb</a> <span class="ml-15">©2024</span></p>
+    </div>
+  </footer>
+</body>
+</html>
