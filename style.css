@@ -63,6 +63,7 @@ h4 {
   list-style: none;
 }
 
+.links-style-none,
 .links-style-none a {
   text-decoration: none;
   color: inherit;
@@ -117,6 +118,7 @@ h4 {
   width: 100%;
 
   display: flex;
+  justify-content: space-between;
 }
 
 .section[id="summary"] {
@@ -124,17 +126,11 @@ h4 {
   gap: 40px;
 }
 
-.section[id="summary"] .text > p {
+.sc {
   color: var(--secondary-text-color);
 }
 
-.section[id="contacts"] {
-  justify-content: space-between;
-}
-
-.contacts-list-container,
-.skills-list,
-.code-container {
+.right-side-container {
   width: 65%;
 }
 
@@ -160,19 +156,11 @@ h4 {
   content: url('./assets/images/mdi_codewars.png');
 }
 
-.section[id="skills"] {
-  justify-content: space-between;
-}
-
 .skills-list {
   margin-top: 20px;
 
   line-height: 1.2;
   font-weight: 700;
-}
-
-.section[id="code-example"] {
-  justify-content: space-between;
 }
 
 .code-container {
@@ -181,6 +169,7 @@ h4 {
 }
 
 .code-container > pre {
+  margin-left: -40px;
   padding: 20px;
   color: var(--secondary-text-color);
 }
@@ -219,6 +208,10 @@ h4 {
   grid-row: 3;
 }
 
+.br {
+  display: block;
+}
+
 .test-border {
   border: 1px solid red;
 }
@@ -242,32 +235,17 @@ h4 {
     gap: 20px;
   }
 
-  .section[id="summary"] {
-    flex-direction: column;
-  }
-
-  .section[id="contacts"],
-  .section[id="skills"],
-  .section[id="code-example"] {
+  .section {
     flex-direction: column;
     gap: 20px;
   }
-  
-  .section[id="contacts"] > .list-container {
-    width: 100%;
-  }
 
-  .contacts-list-container,
-  .skills-list,
-  .code-container {
+ .right-side-container {
     width: 100%;
-  }
-
-  .code-container {
-    overflow-x: scroll;
   }
 
   .code-container > pre {
+    margin-left: 0;
     white-space: pre-wrap;
     overflow-x: scroll;
   } 
@@ -285,7 +263,7 @@ h4 {
     height: 330px;
   }
   
-  .contacts-list-container > ul,
+  .contacts-list,
   .skills-list {
     display: flex;
     flex-direction: column;
